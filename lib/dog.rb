@@ -18,8 +18,8 @@ end
 
 def self.print_all
 @@all.each do|dog|
+binding.pry 
   puts dog 
-  binding.pry 
   end 
 end 
 
