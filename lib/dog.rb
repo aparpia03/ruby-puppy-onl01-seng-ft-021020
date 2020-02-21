@@ -22,7 +22,7 @@ def self.print_all
   puts dog
   end 
 end 
-
+binding.pry 
 def save
   @@all << self 
 end   
